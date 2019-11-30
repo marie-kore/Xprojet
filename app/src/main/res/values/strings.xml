@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calco</string>
+    <string name="calculateBMI">result</string>
+    <string name="height">height</string>
+    <string name="weight">weight</string>
+    <string name="calcul_ibm">Calcul IBM</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/col"
+        android:layout_width="344dp"
+        android:layout_height="103dp"
+        android:layout_gravity="end"
+        android:maxLines="1"
+        android:layout_marginTop="60dp"
+        android:text="BIENVENUE DANS VOTRE MENU"
+        android:textSize="23dp"
+
+        android:textColor="@color/colorAccent"
+        />
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="344dp"
+        android:layout_height="103dp"
+        android:layout_gravity="end"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:text="selectionnez une option"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="200dp"
+        >
+
+
+
+
+        <Button
+            android:id="@+id/btnrepertoire"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="repertoire"/>
+        <Button
+            android:id="@+id/btncalco"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="calculatrice"/>
+
+        <Button
+            android:id="@+id/btncalibm"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="calcul IMC"/>
+
+
+    </LinearLayout>
+</LinearLayout>
